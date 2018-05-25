@@ -1,6 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:padding="23dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/luxembourg"
+        android:layout_width="300dp"
+        android:layout_height="83dp"
+        android:background="@drawable/luxembourg"
+        android:padding="25dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_marginTop="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/chaumont"
+        android:layout_toStartOf="@+id/chaumont" />
+
+    <Button
+        android:id="@+id/chaumont"
+        android:layout_width="300dp"
+        android:layout_height="83dp"
+        android:background="@drawable/chaumont"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_above="@+id/bercy"
+        android:layout_toRightOf="@+id/bercy"
+        android:layout_toEndOf="@+id/bercy" />
+
+    <Button
+        android:id="@+id/bercy"
+        android:layout_width="300dp"
+        android:layout_height="83dp"
+        android:background="@drawable/bercy"
+        android:padding="25dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_below="@+id/luxembourg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/monsouris"
+        android:layout_width="300dp"
+        android:layout_height="83dp"
+        android:background="@drawable/montsouris"
+        android:padding="25dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_below="@+id/chaumont"
+        android:layout_toRightOf="@+id/bercy"
+        android:layout_toEndOf="@+id/bercy" />
+
+    <Button
+        android:id="@+id/tuilerie"
+        android:layout_width="300dp"
+        android:layout_height="83dp"
+        android:background="@drawable/tuileries"
+        android:padding="25dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_below="@+id/bercy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

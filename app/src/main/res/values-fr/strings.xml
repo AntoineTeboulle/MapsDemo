@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Maps Demo</string>
-    <string name="title_activity_maps">World Places</string>
+    <string name="title_activity_maps">Places du Monde</string>
     <string name="jardins">Jardins</string>
     <string name="credits">Credits</string>
 </resources>
